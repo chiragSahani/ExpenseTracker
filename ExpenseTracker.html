@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+
+    <!-- Container -->
+    <div class="container py-5">
+        <!-- Header -->
+        <div class="text-center mb-4">
+            <h1 class="display-4 text-danger">Expense Tracker</h1>
+            <p class="lead">Track your expenses and manage your finances with ease.</p>
+        </div>
+
+        <!-- Form Section -->
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <form id="expense-form" class="row g-3">
+                    <div class="col-md-4">
+                        <input type="text" id="expense-name" class="form-control" placeholder="Expense Name" required>
+                    </div>
+                    <div class="col-md-2">
+                        <input type="number" id="expense-amount" class="form-control" placeholder="Amount ($)" required>
+                    </div>
+                    <div class="col-md-3">
+                        <select id="expense-category" class="form-select" required>
+                            <option value="" disabled selected>Select Category</option>
+                            <option value="Food">Food</option>
+                            <option value="Transport">Transport</option>
+                            <option value="Entertainment">Entertainment</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <input type="date" id="expense-date" class="form-control" required>
+                    </div>
+                    <div class="col-md-1 d-grid">
+                        <button type="submit" class="btn btn-danger">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Expense Table -->
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h5 class="card-title text-danger">Expenses</h5>
+                <table class="table table-striped table-hover mt-3">
+                    <thead class="table-danger">
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Amount ($)</th>
+                            <th scope="col">Category</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="expense-list"></tbody>
+                </table>
+
+                <!-- Total Amount -->
+                <div class="text-end mt-3">
+                    <h5>Total: $<span id="total-amount">0.00</span></h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filter Section -->
+        <div class="d-flex justify-content-between align-items-center mt-4">
+            <label for="filter-category" class="form-label fw-bold text-danger me-3">Filter by Category:</label>
+            <select id="filter-category" class="form-select w-auto">
+                <option value="All">All</option>
+                <option value="Food">Food</option>
+                <option value="Transport">Transport</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
