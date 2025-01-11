@@ -1,4 +1,4 @@
-# ExpenseTracker
+
 # Expense Tracker 💰
 
 A **modern, responsive, and intuitive Expense Tracker** web application built using **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. This project helps users manage their personal finances by tracking expenses, filtering them by category, and calculating the total amount dynamically.
@@ -16,7 +16,7 @@ A **modern, responsive, and intuitive Expense Tracker** web application built us
 ---
 
 ## **Demo**
-![Expense Tracker Demo](https://via.placeholder.com/800x400?text=Expense+Tracker+Demo)
+[Expense Tracker Demo](https://expensechirag.ccbp.tech/)
 
 ---
 
@@ -45,22 +45,8 @@ Open `index.html` in your favorite browser to view the app.
 
 ---
 
-## **Folder Structure**
 
----
 
-## **Screenshots**
-
-### 1. Expense Tracker Form
-![Form Screenshot](https://via.placeholder.com/600x300?text=Form+Screenshot)
-
-### 2. Expense Table with Total Amount
-![Table Screenshot](https://via.placeholder.com/600x300?text=Table+Screenshot)
-
-### 3. Responsive Mobile View
-![Mobile View Screenshot](https://via.placeholder.com/400x600?text=Mobile+View)
-
----
 
 ## **Key Functionalities**
 
@@ -99,8 +85,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## **Contact**
 For any questions or feedback:
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- GitHub: [@yourusername](https://github.com/yourusername)
+- Email: [Gmail](mailto:chiragsahani093@gmail.com)
+- GitHub: [chiragSahani](https://github.com/chiragSahani)
 
 ---
 
